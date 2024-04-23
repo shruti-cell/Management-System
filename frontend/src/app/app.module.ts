@@ -19,6 +19,7 @@ import { NgxUiLoaderModule,NgxUiLoaderConfig,SPINNER,PB_DIRECTION } from 'ngx-ui
 import { ForgotPwdComponent } from './forgot-pwd/forgot-pwd.component';
 import { LoginComponent } from './login/login.component';
 import { TokenInterceptorInterceptor } from './services/token-interceptor.interceptor';
+import { ManageUserComponent } from './material-component/manage-user/manage-user.component';
 
 const ngxUiLoaderConfig:NgxUiLoaderConfig = {
   text:"Loading....",
@@ -42,7 +43,8 @@ const ngxUiLoaderConfig:NgxUiLoaderConfig = {
     AppSidebarComponent,
     SignupComponent,
     ForgotPwdComponent,
-    LoginComponent
+    LoginComponent,
+    ManageUserComponent
    ],
   imports: [
     BrowserModule,
